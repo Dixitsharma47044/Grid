@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(240, 241, 241);
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    width: 855px;
+    margin: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: rgb(240, 241, 241);
+
+}
+
+.h2 {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.p1 {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+ .nav-bar span{
+    background-color: #fff;
+ }
+
+.nav-list a {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    background-color: #fff;
+    
+}
+
+.nav-list a {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+input[type="text"],
+textarea {
+    padding: 5px;
+    border: 1px solid #696868;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.search-btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #117bf5;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    background-color: (240, 241, 241);;
+gap: 10px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fffdfd;
+
+}
+.btn1{
+    background-color: #fff;
+    margin: 5px;
+}
+
+.btn1 button {
+    width: 100%;
+    background-color: #3e9ffa;
+    border-radius: 10px;
+
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box2 {
+    border-radius: 10px;
+    background-color: #0b81f0;
+    width: 100%;
+    height: 100%;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grida {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.ram {
+    border-radius: 10px;
+    height: 210px;
+    background-color: #fdfbfb;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ram1{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);    
+}
+
+.gridb {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.ramg {
+    border-radius: 10px;
+    height: 300px;
+    background-color: white;
+
+}
+
+.asdf {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b81f0;
+
+}
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #fff;
+}
+
+td {
+    background-color: #fff;
+}
+
+td a {
+    background-color: #fff;
+}
+
+@media (max-width: 555px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     *{
+        margin: 10px;
+        font-size: 10px;
+     }
+    section{
+        margin: 5px;
+    }
+    header .nav-bar {
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        max-width: auto;
+    }
+    .grid1, .grida, .grid2, .gridb{
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+    .box, .ram, .ramg {
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+    footer table {
+        font-size: 14px;
+    }
+    footer table td, footer table th {
+        display:block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    
+}
+
